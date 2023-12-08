@@ -7,7 +7,6 @@ export class Filter extends React.Component {
     return (
       <input
         className={s.input}
-        // name="filter"
         value={filter}
         onChange={event => handleFilter(event)}
         type="text"
